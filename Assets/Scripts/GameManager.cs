@@ -28,7 +28,6 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void RestartGame()
     {
-        HidePanels();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 

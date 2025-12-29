@@ -1753,8 +1753,8 @@ Rigidbody:
   m_GameObject: {fileID: 5377148941831102936}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 0.3
+  m_AngularDrag: 3
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1768,9 +1768,9 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 2
   m_Constraints: 56
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &8332230229813074596
 MonoBehaviour:
   m_ObjectHideFlags: 0
